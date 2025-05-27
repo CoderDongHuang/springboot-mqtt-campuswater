@@ -1,0 +1,32 @@
+2025-05-25 02:27:58.724 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h8m27s961ms313µs200ns).
+2025-05-25 02:28:33.164 [MQTT Ping: campus-water-server] ERROR o.e.p.c.mqttv3.internal.ClientState - campus-water-server: Timed out as no write activity, keepAlive=60,000,000,000 lastOutboundActivity=928,796,483,823,600 lastInboundActivity=928,796,498,637,600 time=943,736,511,452,100 lastPing=928,796,484,984,600
+2025-05-25 02:28:33.296 [MQTT Ping: campus-water-server] ERROR com.campus.water.service.MqttService - MQTT连接断开: Timed out while waiting to write messages to the server
+2025-05-25 02:28:33.300 [MQTT Ping: campus-water-server] INFO  com.campus.water.service.MqttService - 正在尝试重新连接...
+2025-05-25 02:28:33.346 [MQTT Ping: campus-water-server] INFO  com.campus.water.service.MqttService - 重新连接成功
+2025-05-25 13:20:10.384 [MQTT Rec: campus-water-server] ERROR com.campus.water.service.MqttService - MQTT连接断开: 已断开连接
+2025-05-25 13:20:10.384 [MQTT Rec: campus-water-server] INFO  com.campus.water.service.MqttService - 正在尝试重新连接...
+2025-05-25 13:20:10.412 [MQTT Rec: campus-water-server] INFO  com.campus.water.service.MqttService - 重新连接成功
+2025-05-25 13:20:29.184 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h51m51s383ms802µs900ns).
+2025-05-25 13:22:14.318 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-25 13:22:14.344 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-25 14:51:01.023 [main] INFO  c.c.water.WaterDispenserApplication - Starting WaterDispenserApplication using Java 21.0.4 on DESKTOP-BFCFFNA with PID 58092 (D:\java-project-mod\springboot-mqtt-campuswater\target\classes started by 12187 in D:\java-project-mod\springboot-mqtt-campuswater)
+2025-05-25 14:51:01.028 [main] INFO  c.c.water.WaterDispenserApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 14:51:02.715 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-05-25 14:51:02.723 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-25 14:51:02.725 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-25 14:51:02.725 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-25 14:51:02.820 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-25 14:51:02.821 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1721 ms
+2025-05-25 14:51:03.038 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-25 14:51:03.438 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-25 14:51:04.016 [main] INFO  com.campus.water.service.MqttService - 正在初始化MQTT客户端...
+2025-05-25 14:51:04.425 [main] INFO  com.campus.water.service.MqttService - MQTT客户端连接成功
+2025-05-25 14:51:04.453 [main] INFO  com.campus.water.service.MqttService - 已订阅所有主题
+2025-05-25 14:51:05.580 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-25 14:51:05.637 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-25 14:51:05.660 [main] INFO  c.c.water.WaterDispenserApplication - Started WaterDispenserApplication in 5.457 seconds (JVM running for 10.011)
+2025-05-25 17:46:56.017 [MQTT Rec: campus-water-server] ERROR com.campus.water.service.MqttService - MQTT连接断开: 已断开连接
+2025-05-25 17:46:56.050 [MQTT Rec: campus-water-server] INFO  com.campus.water.service.MqttService - 正在尝试重新连接...
+2025-05-25 17:46:56.104 [MQTT Rec: campus-water-server] INFO  com.campus.water.service.MqttService - 重新连接成功
+2025-05-25 20:01:28.782 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-25 20:01:28.812 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
