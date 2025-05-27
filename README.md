@@ -1,0 +1,2 @@
+# springboot-mqtt-campuswater
+这是一个使用MQTT协议的校园直饮水物联网项目的Java后端
